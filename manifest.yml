@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: mymobile
+  host: mymobile-chl-01
+  disk_quota: 1024M
+  services:
+  - mymobile-AdvancedMobileAccess
+  - mymobile-imfpush
+  - mymobile-cloudantNoSQLDB
